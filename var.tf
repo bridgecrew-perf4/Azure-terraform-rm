@@ -33,3 +33,6 @@ variable "region"{
   description = "Region Name"
   default = "West US"
   }
+
+Variable "projectname"{
+  }
