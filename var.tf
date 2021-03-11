@@ -37,3 +37,7 @@ variable "region"{
 variable "projectname"{
    description = "project"
   }
+
+variable "groupname"{
+   description = "groupname"
+  }
