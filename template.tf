@@ -57,7 +57,7 @@ resource "azurerm_linux_virtual_machine" "main" {
   
  tags = {
     environment = "Production"
-    name       = "${var.projectname}"
+    name       = var.projectname
  }
 
 }
