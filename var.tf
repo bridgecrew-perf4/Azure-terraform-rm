@@ -34,5 +34,6 @@ variable "region"{
   default = "West US"
   }
 
-Variable "projectname"{
+variable "projectname"{
+   description = "project"
   }
