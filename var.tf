@@ -12,6 +12,6 @@ variable "rgName" {
   }
 
 variable "region"{
-  descriptin = "Region Name"
+  description = "Region Name"
   default = "West US"
   }
