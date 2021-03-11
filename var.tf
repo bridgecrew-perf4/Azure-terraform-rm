@@ -19,6 +19,11 @@ variable "location" {
   description = "The Azure Region in which all resources in this example should be created."
 }
 
+variable "password" {
+  description = "password for server"
+  }
+
+
 variable "rgName" {
   description = " Resource Group Name"
   default = "do_not_delete_New_RG"
