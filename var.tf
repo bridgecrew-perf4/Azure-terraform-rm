@@ -38,3 +38,6 @@ variable "projectname"{
    description = "project"
   }
 
+variable "teamName"{
+  description = "CPGTeam"
+  }
