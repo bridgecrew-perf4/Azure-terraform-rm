@@ -58,7 +58,6 @@ resource "azurerm_linux_virtual_machine" "main" {
  tags = {
     environment = "Production"
     name       = var.projectname
-    groupname  = var.groupname
- }
+    
 
 }
